@@ -1,0 +1,44 @@
+/* ***************FONT*************** */
+@font-face {
+    font-family: DMserif;
+    src: url(/font/DMSerifDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: Denkone;
+    src: url(/font/DenkOne-Regular.ttf);
+}
+/* ***************COLOR*************** */
+:root{
+    --main-color:#2A3950;
+    --green-color:#009394;
+    --text-color:#006270;
+    --btn-color:#00E0C7;
+}
+/* ***************BASIC*************** */
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI';
+}
+html{
+    font-size: 62.5%;
+    /* font size 10px=1rem */
+}
+h1,h2{
+    font-family: DMserif;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+button{
+    border: none;
+}
+.container{
+    max-width:162rem;
+    margin: 0 auto;
+}
