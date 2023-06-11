@@ -25,6 +25,10 @@ html{
     font-size: 62.5%;
     /* font size 10px=1rem */
 }
+body{
+    max-width: 192rem;
+    margin: 0 auto;
+}
 h1,h2{
     font-family: DMserif;
 }
